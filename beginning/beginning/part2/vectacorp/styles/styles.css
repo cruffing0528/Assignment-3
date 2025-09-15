@@ -29,28 +29,69 @@ a, a:link, a:visited, a:hover, a:active {
     color: #CC1C0D;
 }
 
-/* .solution-index {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 10px;
-  /* white-space: nowrap; */
-  /* display: inline-block; */
-  /* flex-wrap: wrap;
-  width: 100%; 
-} */
-
-/* .solution-description {
-    display: inline-block; 
-    vertical-align: top; 
-    margin: 0;
-    overflow: hidden;
-} */
-
-.solution-index img {
+p img {
     float: left;
 }
 
-p img {
+.aboutus-section img {
     float: left;
+    border-radius: 45%;
+    border: 3px solid red;
+    margin-right: 20px;
+}
+
+.sub-nav-list {
+    margin-left: 40px;
+}
+
+.solutions-list {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+.pricing-box {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+    background: #fff;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: solid 2px #ccc;
+}
+
+.pricing-divider {
+    height: 8px;
+    margin: 12px auto 18px auto;
+    width: 100%
+}
+
+.pricing-vprospect-divider {
+    background: #CC1C0D;
+}
+
+.pricing-vconvert-divider {
+    background: #37A4A4;
+}
+
+.pricing-vretain-divider {
+    background: #685288;
+}
+
+.pricing-enterprise-divider {
+    background: #000000;
+}
+
+.pricing-box img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.pricing-box h3 {
+    text-align: center;
+}
+
+.pricing-box p, .pricing-box span {
+    text-align: center;
+    display: block;
 }
